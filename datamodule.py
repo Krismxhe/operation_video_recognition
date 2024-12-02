@@ -14,7 +14,7 @@ from transform import x3d_train_transform, val_transform
 
 class OphNetOperationDataModule(pl.LightningDataModule):
     # Dataset configuration
-    _DATA_PATH = '/data/mengxian/processed_data/004_ophnet_operation_classification'
+    _DATA_PATH = '/example/'
     _CLIP_DURATION = 2
     _BATCH_SIZE = 12
     _NUM_WORKERS = 4
